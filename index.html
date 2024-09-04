@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css selector </title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Demo of the .class selector</h1>
+<div class="intro">
+  <p>My name is MD Ariful islam.</p>
+</div>
+
+<h1>Demo of the #id selector</h1>
+<div class="intro">
+  <p id="firstname">My name is MD Ariful islam.</p>
+  <p id="hometown">I live in Barisal.</p>
+</div>
+
+<h1>Demo of the * selector</h1>
+<div class="intro">
+  <p id="firstname">My name is Ariful.</p>
+  <p id="hometown">I live in Barisal.</p>
+</div>
+
+<h1>Demo of the element selector</h1>
+<div>
+  <p id="firstname">My name is Ariful.</p>
+  <p id="hometown">I live in Barisal.</p>
+</div>
+<p>My best friend is Mickey.</p>
+
+<h1>Demo of the element.class selector</h1>
+<div class="intro">
+  <p>My name is Ariful.</p>
+  <p>I live in Barisal.</p>
+</div>
+<p>My best friend is Mickey.</p>
+<p class="intro">My best friend is Mickey.</p>
+
+<h1>Demo of the element, element selector</h1>
+<h2>Welcome to My Homepage</h2>
+<div>
+  <p>My name is Ariful.</p>
+  <p>I live in Barisal.</p>
+</div>
+<p>My best friend is Mickey.</p>
+
+<h1>Demo of the element element selector</h1>
+<div>
+  <h2>My name is Ariful</h2>
+  <p>I live in Barisal.</p>
+</div>
+
+<p>My best friend is Mickey.</p>
+<h1>Demo of the element > element selector</h1>
+<div>
+  <h2>My name is Donald</h2>
+  <p>I live in Barisal.</p>
+</div>
+<div>
+  <span><p>I will not be styled.</p></span>
+</div>
+
+<h1>Demo of the element + element selector</h1>
+<div>
+  <h2>My name is Donald</h2>
+  <p>I live in Duckburg.</p>
+</div>
+<p>My best friend is Mickey.</p>
+<p>I will not be styled.</p>
+
+<div>A div element.</div>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>The first paragraph.</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h2>Another list</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h1>Demo of the [attribute] selector</h1>
+<p>Links with a target attribute is styled with a yellow background:</p>
+<a href="https://www.w3schools.com">W3schools.com</a><br>
+<a href="https://www.google.com" target="_blank">Google.com</a><br>
+<a href="https://www.microsoft.com" target="_blank">Microsoft.com</a>
+
+<h1>Demo of the [attribute~=value] selector</h1>
+<p>Elements with a title attribute containing the word "flower" is styled with a yellow border:</p>
+<img src="klematis.jpg" title="klematis flower" width="150" height="113">
+<img src="img_flwr.gif" title="flowers" width="224" height="162">
+<img src="landscape.jpg" title="landscape" width="160" height="120">
+<div class="first_test">The first div element.</div>
+<div class="second">The second div element.</div>
+<div class="test">The third div element.</div>
+<div class="test_ex">The fourth div element.</div>
+<p class="test">This is a paragraph.</p>
+<p class="test_ex">This is a paragraph.</p>
+
+<div class="first_test">The first div element.</div>
+<div class="second">The second div element.</div>
+<div class="test">The third div element.</div>
+<p class="test">This is some text in a paragraph.</p>
+
+<h1>Demo of the :active selector</h1>
+<a href="https://www.w3schools.com">W3schools.com</a>
+
+<h1>Demo of the ::after selector</h1>
+<p>My name is Donald</p>
+<p>I live in Ducksburg</p>
+
+<h1>Demo of the ::before selector</h1>
+<p>My name is Donald</p>
+<p>I live in Ducksburg</p>
+<form action="">
+  <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+  <input type="radio" value="female" name="gender"> Female<br>
+  <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+  <input type="checkbox" value="Car"> I have a car 
+</form>
+
+<h1>The default Selector</h1>
+<p>The :default selector selects the default form element in a group of related elements.</p>
+<p>The "male" radio button is checked by default:</p>
+<form action="">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+<form action="">
+  First name: <input type="text" value="Mickey"><br>
+  Last name: <input type="text" value="Mouse"><br>
+  Country: <input type="text" disabled="disabled" value="Disneyland">
+</form>
+
+<p></p>
+<p>A paragraph.</p>
+<p>Another paragraph.</p>
+</body>
+
+</html>

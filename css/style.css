@@ -1,0 +1,65 @@
+.intro {font-size: 40px}
+
+#firstname {
+  background-color: yellow;}
+  
+  p{color: rgb(0, 139, 7);
+
+  }
+  p.intro{
+  	background-color: black;
+  }
+  h2,p {
+  	font-family: cursive;
+  }
+  div p{text-decoration:underline ;
+
+  }
+  div > p
+  {font-weight:600 ; }
+  div+p{font-variant:small-caps ;
+
+  }
+p ~ ul {
+  background: #fffb00;}
+
+  a[target] {
+  background-color: yellow;
+}
+[title~="flower"] {
+    border: 5px solid yellow;}
+
+ div[class^="test"] {
+  background: blueviolet;
+}
+div[class$="test"] {
+  background: #ffff00;
+}
+a:active {
+  background-color: yellow;}
+  p::after { 
+  content: " - Remember this";
+}
+p::before {
+  content: "Read this -";
+}
+input:checked {
+  height: 50px;
+  width: 50px;}
+
+input:default {
+  box-shadow: 0 0 1px 1px rgb(0, 89, 255);
+}
+input[type=text]:enabled {
+  background: #01ff01;
+}
+
+input[type=text]:disabled {
+  background: #dddddd;
+}
+
+p:empty {
+  width: 100px;
+  height: 20px;
+  background: #73ff00;
+}
